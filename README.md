@@ -1,1 +1,92 @@
+
 # Forensics
+
+LAB 1  Computer Forensics Investigation Process
+1. Data Recovery
+	- EaseUS Data Recovery Wizard ( Trail total 500mb limit)
+2. Hash 
+	- HashCalc
+	- MD5 calculator
+3. File Viewer
+	- File Viewer (Trail)
+4. Handling Evidence Data
+	- P2 Commander
+5. Disk Image Creation
+	- R-Drive Image  (Trail 30 days)
+
+-----------------------------------------------------
+
+LAB 2 Understanding Hard Disks and File Systems
+1. Recover deleted data
+	- WinHex  [Extract the zip, No installation required]
+2. Analyzing File System Types
+	- The Sleuth Kit (TSK)  [Extract the zip, No installation required]
+3. Analysing Raw Image
+	- Autopsy 
+
+------------------------------------------------------
+
+LAB 3 Data Acquisition and Duplication
+1. Creating dd image
+	- Kali linux -> dd command
+2. Investigating NTFS Drive
+	-  DiskExplorer for NTFS
+3. Viewing the contents of forensic image
+	- Access Data FTK Imager tool
+
+-----------------------------------------------------
+
+LAB 4 Defeating Anti-forensics Techniques
+1. Password cracking
+	- Passware kit (demo)
+	- Advanced Archive Password Recovery
+	- Advanced PDF Password Recovery
+	- John the Ripper (kali linux)
+2. Detecting Steganography
+	- Stegspy [Extract the zip, No installation required and RUN AS ADMINISTRATOR]
+	- Openstego (dependencies jre)
+	- DeepSound
+
+-----------------------------------------------------
+
+LAB 5  Operating System Forensics
+1. Discovering and Extracting Hidden forensic materials
+	- OSForensics (Trail 30 days)
+2. Extracting information about loaded processes
+	- Process Explorer [Extract the zip, No installation required]
+3. Viewing Monitoring and analyzing events
+	- Event Log Explorer
+4. Performing a computer forensic investigation
+	- helix tool [Copy Paste, No installation required]
+5. Acquiring volatile data in Linux
+	- Auditd : kali or ubuntu -> install auditd ( sudo apt install auditd)
+	- Autopsy 
+------------------------------------------------------	
+
+LAB 6 Email Forensics
+1. Recovering deleted emails
+	- Recover My Email
+2. Investigating Email crimes
+	- Paraben's Email Examiner (15days trail and only 10 usage limit)
+3. Tracing an email
+	- emailtrackerpro  (java jre dependency)
+------------------------------------------------------	
+
+LAB 7 Network Forensics
+1. Capturing and Analyzing the logs 
+	- Windows Event Viewer
+2. Investigating System Log Data
+	-  XpoLog Center Suite Tool
+3. Investigating Network Attacks
+	-  Kiwi Log Viewer
+4. Investigating Network Traffic
+	- Wireshark
+------------------------------------------------------	
+
+LAB 8 Database Forensics
+1. Analyzing SQLite Databases
+	- DB Browser for SQLite
+2. Performing Forensics Investigation on a MySQL Server Database
+	- wamp server (vc_redist dependency)
+	- Hex workshop
+------------------------------------------------------
